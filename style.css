@@ -1,0 +1,12 @@
+body{
+    padding:100px;
+}
+
+.submit{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    padding: 40px;
+    max-width: 60%;
+    align-items: center;
+    margin: 0 auto;
+}

@@ -27,11 +27,11 @@ depositbutton.addEventListener("click", function (event) {
 } )
 
 function addspantext(id, inputvalue) {
-    let currentdeposit = document.getElementById(id).innerText;
+    let currentamount = document.getElementById(id).innerText;
 
-    let currentdepositnumber = parseFloat(currentdeposit);
+    let currentnumber = parseFloat(currentamount);
 
-    let total = inputvalue + currentdepositnumber;
+    let total = inputvalue + currentnumber;
 
     document.getElementById(id).innerText = total;
 }
